@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <application>zetta1985</application>
+  <version>axon-wicket-sample</version>
+  
+  <static-files>
+    <include path="/images/**" />
+    <include path="/scripts/**" />
+    <include path="/styles/**" />
+  </static-files>
+  
+  <system-properties>
+    <property name="java.util.logging.config.file" value="WEB-INF/classes/logging.properties" />
+  </system-properties>
+  
+  <sessions-enabled>true</sessions-enabled>
+  
+</appengine-web-app>

@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+#head_wrapper {
+	background-color: #000000;
+	color : #FFFFFF;
+}
+
+#page_title {
+	width: 150px;
+}
+
+#appengine_banner {
+	top : 0;
+	float: right;
+}
+
+#menu_wrapper {
+	clear: both;
+}
+
+#footer_wrapper {
+	background-color: #000000;
+	color : #FFFFFF;	
+}

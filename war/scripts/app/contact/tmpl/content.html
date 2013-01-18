@@ -1,0 +1,70 @@
+<table>
+  <tr>
+    <td>
+      <div>
+        <form name="contact">
+          <input type="text" name="current_contact_name" id="current_contact_name"/>
+          <input type="reset" name="reset_selected_contact" value="reset"/>
+          <input type="hidden" name="selected_identifier" id="selected_identifier"/>
+        </form>
+      </div>
+      <div>
+        <div>
+          <input type="button" name="create_contact" value="Create"/>
+          <input type="button" name="edit_contact" value="edit"/>
+          <input type="button" name="delete_contact" value="delete"/>
+        </div>
+        <div>
+          <input type="button" name="unselected" value="un-selected"/>
+          <input type="button" name="reload_list" value="reload list"/>
+        </div>
+        <span>Name</span>
+        <ul class="contact_entries">
+        </ul>
+      </div>    
+    </td>
+    <td>
+      <div id="address_wrapper">
+        <table id="address_grid"></table>
+        <div id="address_grid_pager"></div>
+        <div id="addressForm">
+          <form name="addressForm" id="address_form">
+            <table>
+              <tr>
+                <th>Address type : </th>
+                <td>
+                  <select name="addressType">
+                    <option value="WORK">WORK</option>
+                    <option value="PRIVATE">PRIVATE</option>
+                    <option value="VACATION">VACATION</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th>Street and number : </th>
+                <td>
+                  <input type="text" name="streetAndNumber""/>
+                </td>
+              </tr>
+              <tr>
+                <th>Zip code : </th>
+                <td>
+                  <input type="text" name="zipCode"/>
+                </td>
+              </tr>
+              <tr>
+                <th>City :</th>
+                <td>
+                  <input type="text" name="city"/>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <input type="button" name="createAddress" value="create Address"/>
+        <input type="button" name="deleteAddress" value="delete Address"/>
+      </div>
+    </td>
+  </tr>
+</table>
+
